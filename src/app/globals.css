@@ -1,5 +1,77 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+.colored {
+  background-color: #ff9b49;
+}
+/* NAVIGATION BAR */
+.Navy {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.Nav_Image img {
+  width: 60% !important;
+}
+.Nav_Button {
+  display: flex;
+  gap: 30px;
+}
+.Nav_Button button {
+  min-height: 40px;
+  padding: 10px 20px;
+  border: none;
+}
+.Nav_Button .colored {
+  background-color: #ff9b49;
+  color: white;
+  min-width: 150px;
+}
+.Nav_Button .colored:hover {
+  border: 2px solid #ff9b49;
+  background-color: white;
+  color: #ff9b49;
+}
+.Nav_Button .non_colored {
+  border: 2px solid #ff9b49;
+  color: #ff9b49;
+  min-width: 100px;
+}
+.Nav_Button .non_colored:hover {
+  background-color: #ff9b49;
+  color: white;
+}
+
+/* LOGIN PAGE */
+.Login_Page {
+  width: 80%;
+  margin: auto;
+}
+.Loginy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.Loginy div {
+  width: 45% !important;
+}
+.Loginy .Loginimage img {
+  width: 100% !important;
+  height: 100% !important;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+form input {
+  height: 40px;
+  margin: 20px 0;
+  width: 1200px !important;
+}
+.form button{
+  width:200px;
 }
