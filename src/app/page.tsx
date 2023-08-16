@@ -6,7 +6,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="center">
       <h1>WELCOME TO OUR PAGE </h1>
       <Link href="/pages/login">Login</Link>
     </div>

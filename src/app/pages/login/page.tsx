@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LoginImage from "../../../assets/signIn_img.webp";
+import LoginImage from "../../assets/signIn_img.webp";
 const Login = () => {
   return (
     <div className="Login_Page">
