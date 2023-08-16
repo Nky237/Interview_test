@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LoginImage from "../../assets/signo.png";
+import LoginImage from "../../assets/sign.png";
 const Login = () => {
   return (
     <div className="Login_Page">
@@ -25,7 +25,10 @@ const Login = () => {
             <Link href="#">Forgot username or password?</Link> <br />
             <small>
               Don't have an account?
-              <Link href="/pages/signup" style={{ color: "#0018FF", paddingLeft: '5px' }}>
+              <Link
+                href="/pages/signup"
+                style={{ color: "#0018FF", paddingLeft: "5px" }}
+              >
                 Sign up
               </Link>
             </small>
