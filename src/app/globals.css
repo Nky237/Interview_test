@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .colored {
   background-color: #ff9b49;
@@ -10,7 +12,7 @@
 .Navy {
   display: flex;
   justify-content: space-between;
-  width: 97%;
+  width: 100%;
   margin: auto;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -24,28 +26,33 @@
   gap: 30px;
 }
 .Nav_Button button {
-  min-height: 40px;
+  min-height: 30px;
   padding: 10px 20px;
   border: none;
+  border-radius: 9px;
 }
 .Nav_Button .colored {
   background-color: #ff9b49;
   color: white;
   min-width: 150px;
+  transition: 1s all ease-in;
 }
 .Nav_Button .colored:hover {
   border: 2px solid #ff9b49;
   background-color: white;
   color: #ff9b49;
+  transition: 1s all ease-in;
 }
 .Nav_Button .non_colored {
   border: 2px solid #ff9b49;
   color: #ff9b49;
   min-width: 100px;
+  transition: 1s all ease-in;
 }
 .Nav_Button .non_colored:hover {
   background-color: #ff9b49;
   color: white;
+  transition: 1s all ease-in;
 }
 
 /* LOGIN PAGE */
@@ -58,35 +65,47 @@
   justify-content: space-between;
 }
 .Loginy div {
-  width: 65%;
+  width: 40%;
+}
+.Loginy .Loginimage {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.Logintext p {
+  font-size: 19px;
+  width: 70%;
+  color: #151313;
 }
 .Loginy .Loginimage img {
   width: 100% !important;
-  height: 100% !important;
+  height: 90vh !important;
 }
 .Logintext {
   padding-top: 70px;
 }
 form div {
-  /* display: flex;
-  flex-direction: column; */
-  width: 100%;
+  margin-top: 20px;
 }
 form input {
   height: 40px;
-  margin: 20px 0;
-  width: 100% !important;
+  width: 300px !important;
   padding: 0 10px;
+  background-color: white;
+  border: 1px solid #757575;
 }
 form button {
-  width: 200px;
+  width: 300px;
   height: 40px;
   border: none;
   margin-bottom: 20px;
   color: white;
+  margin-top: 20px;
 }
 form small {
-  padding-top: 20px;
+  padding: 30px 0;
 }
 /* LANDING PAGE */
 .center {
@@ -95,4 +114,8 @@ form small {
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+form a {
+  color: black;
+  text-decoration: none;
 }
