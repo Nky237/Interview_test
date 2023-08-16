@@ -10,8 +10,11 @@
 .Navy {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 97%;
   margin: auto;
+  padding-top: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* border: 1px solid black; */
 }
 .Nav_Image img {
   width: 60% !important;
@@ -53,7 +56,6 @@
 .Loginy {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 70px; */
 }
 .Loginy div {
   width: 65%;
@@ -61,6 +63,9 @@
 .Loginy .Loginimage img {
   width: 100% !important;
   height: 100% !important;
+}
+.Logintext {
+  padding-top: 70px;
 }
 form div {
   /* display: flex;
@@ -78,7 +83,8 @@ form button {
   height: 40px;
   border: none;
   margin-bottom: 20px;
+  color: white;
 }
-form small{
+form small {
   padding-top: 20px;
 }
