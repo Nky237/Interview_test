@@ -22,7 +22,13 @@ const Login = () => {
               <input type="password" />
             </div>
             <button className="colored">Login</button> <br />
-            <Link href="#">Forgot username or password?</Link>
+            <Link href="#">Forgot username or password?</Link> <br />
+            <small>
+              Don't have an account?
+              <Link href="/pages/signup" style={{ color: "#0018FF" }}>
+                Sign up
+              </Link>
+            </small>
           </form>
         </div>
         <div className="Loginimage">

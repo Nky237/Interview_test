@@ -53,25 +53,32 @@
 .Loginy {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
+  /* padding-top: 70px; */
 }
 .Loginy div {
-  width: 45% !important;
+  width: 65%;
 }
 .Loginy .Loginimage img {
   width: 100% !important;
   height: 100% !important;
 }
 form div {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
 }
 form input {
   height: 40px;
   margin: 20px 0;
-  width: 1200px !important;
+  width: 100% !important;
+  padding: 0 10px;
 }
-.form button{
-  width:200px;
+form button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-bottom: 20px;
+}
+form small{
+  padding-top: 20px;
 }
