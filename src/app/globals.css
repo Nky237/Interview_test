@@ -26,11 +26,12 @@
   gap: 30px;
 }
 .Nav_Button button {
-  min-height: 30px;
-  padding: 10px 20px;
+  height: 40px;
   border: none;
   border-radius: 9px;
   font-size: 18px;
+  display: flex;
+  cursor: pointer;
 }
 .icon {
   font-size: 22px;
@@ -39,28 +40,31 @@
   background-color: #ff9b49;
   color: white;
   min-width: 150px;
-  transition: 1s all ease-in;
+  transition: 0.5s all ease-in;
   display: flex;
   align-items: center;
   gap: 5px;
   justify-content: center;
 }
 .Nav_Button .colored:hover {
-  border: 2px solid #ff9b49;
-  background-color: white;
-  color: #ff9b49;
-  transition: 1s all ease-in;
+  /* border: 2px solid #ff9b49; */
+  background-color: #e5a876;
+  color: white;
+  transition: 0.5s all ease-in;
 }
 .Nav_Button .non_colored {
   border: 2px solid #ff9b49;
   color: #ff9b49;
   min-width: 100px;
-  transition: 1s all ease-in;
+  transition: 0.5s all ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Nav_Button .non_colored:hover {
   background-color: #ff9b49;
   color: white;
-  transition: 1s all ease-in;
+  transition: 0.5s all ease-in;
 }
 
 /* LOGIN PAGE */
@@ -140,7 +144,7 @@ form a {
   form div {
     flex-direction: column;
   }
-  .Nav_Button{
+  .Nav_Button {
     display: none;
   }
 }
