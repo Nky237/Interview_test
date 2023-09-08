@@ -6,7 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 .colored {
-  background-color: #ff9b49;
+  background-color: #fa7507;
+}
+button {
+  cursor: pointer;
 }
 /* NAVIGATION BAR */
 .Navy {
@@ -23,13 +26,13 @@
 }
 .Nav_Button {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .Nav_Button button {
-  height: 40px;
+  height: 37px;
   border: none;
-  border-radius: 9px;
-  font-size: 18px;
+  border-radius: 5px;
+  font-size: 16px;
   display: flex;
   cursor: pointer;
 }
@@ -37,25 +40,25 @@
   font-size: 22px;
 }
 .Nav_Button .colored {
-  background-color: #ff9b49;
+  background-color: #fa7507;
   color: white;
-  min-width: 150px;
+  min-width: 120px;
   transition: 0.5s all ease-in;
   display: flex;
   align-items: center;
   gap: 5px;
   justify-content: center;
 }
-.Nav_Button .colored:hover {
+.colored:hover {
   /* border: 2px solid #ff9b49; */
-  background-color: #e5a876;
+  background-color: #ff9b49;
   color: white;
   transition: 0.5s all ease-in;
 }
 .Nav_Button .non_colored {
   border: 2px solid #ff9b49;
   color: #ff9b49;
-  min-width: 100px;
+  min-width: 80px;
   transition: 0.5s all ease-in;
   display: flex;
   align-items: center;
