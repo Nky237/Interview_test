@@ -1,11 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../assets/logo.webp";
+import Ham from "../assets/ham.svg";
 import { GoPersonAdd } from "react-icons/go";
 
 const Nav = () => {
   return (
     <div className="Navy">
+    <div className="hide">
+      <Image src = {Ham} alt= 'harmburger' height= {30} width = {30}/>
+    </div>
       <div className="Nav_Image">
         <Image src={Logo} alt="logo" height={50} width={50} />
       </div>

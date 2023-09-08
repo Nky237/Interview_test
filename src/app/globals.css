@@ -15,10 +15,14 @@ button {
 .Navy {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin: auto;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hide {
+  display: none;
 }
 .Nav_Image img {
   width: 70% !important;
@@ -134,9 +138,51 @@ form a {
   color: black;
   text-decoration: none;
 }
+
+/* FORGOT PASSWORD */
+.forgot {
+  width: 100%;
+  background-color: #fafafa;
+}
+.forgot form {
+  width: 30%;
+  margin: auto;
+  padding-top: 70px;
+}
+/* .forgot form div input,
+.forgot form button {
+  width: 200px;
+} */
+.forgot form div {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 @media only screen and (max-width: 700px) {
+  /* NAVIGATION BAR */
+  .hide {
+    display: block;
+  }
+  .Nav_Button button {
+    font-size: 14px;
+  }
+  .Nav_Button .colored {
+    width: 50px;
+  }
+  .Nav_Button .non_colored {
+    width: 40px;
+  }
+  /* FORGOT PASSWORD */
+  .forgot form {
+    width: 85%;
+    margin: 70px auto;
+  }
   .Login_Page {
     width: 100%;
+    padding: 0px 20px;
   }
   .Loginy div {
     width: 100%;
@@ -147,7 +193,9 @@ form a {
   form div {
     flex-direction: column;
   }
-  .Nav_Button {
-    display: none;
+
+  .Logintext p {
+    font-size: 15px;
+    width: 80%;
   }
 }

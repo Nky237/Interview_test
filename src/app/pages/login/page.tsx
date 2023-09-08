@@ -22,7 +22,7 @@ const Login = () => {
               <input type="password" />
             </div>
             <button className="colored">Login</button> <br />
-            <Link href="#">Forgot username or password?</Link> <br />
+            <Link href="/pages/forgot">Forgot username or password?</Link> <br />
             <small>
               Don&apos;t have an account?
               <Link
