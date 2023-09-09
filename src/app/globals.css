@@ -116,7 +116,7 @@ form div {
 }
 form input {
   height: 40px;
-  width: 300px !important;
+  width: 300px;
   padding: 0 10px;
   background-color: white;
   border: 1px solid #757575;
@@ -207,6 +207,16 @@ form a {
   form div {
     display: flex;
     flex-direction: column !important;
+    width: 100%;
+  }
+  form div {
+    margin-top: 20px;
+  }
+  form input {
+    width: 100%;
+  }
+  form button {
+    width: 100%;
   }
 
   .Logintext p {
