@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "../assets/logo.webp";
 import Ham from "../assets/ham.svg";
 import { GoPersonAdd } from "react-icons/go";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -18,7 +19,7 @@ const Nav = () => {
           <GoPersonAdd className='icon' />
           Register
         </button>
-        <button className="non_colored">Login</button>
+        <button className="non_colored"><Link href='/pages/login'>Login</Link></button>
       </div>
     </div>
   );

@@ -61,17 +61,23 @@ button {
 }
 .Nav_Button .non_colored {
   border: 2px solid #ff9b49;
-  color: #ff9b49;
   min-width: 80px;
   transition: 0.5s all ease-in;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.Nav_Button .non_colored a {
+  text-decoration: none;
+  color: #ff9b49;
+}
 .Nav_Button .non_colored:hover {
   background-color: #ff9b49;
-  color: white;
   transition: 0.5s all ease-in;
+  color: white;
+}
+.Nav_Button .non_colored:hover a {
+  color: white;
 }
 
 /* LOGIN PAGE */
