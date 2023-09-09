@@ -21,17 +21,19 @@ const Login = () => {
               <label>Password</label>
               <input type="password" />
             </div>
-            <button className="colored">Login</button> <br />
-            <Link href="/pages/forgot">Forgot username or password?</Link> <br />
-            <small>
-              Don&apos;t have an account?
-              <Link
-                href="/pages/signup"
-                style={{ color: "#0018FF", paddingLeft: "5px" }}
-              >
-                Sign up
-              </Link>
-            </small>
+            <div className="break">
+              <button className="colored">Login</button>
+              <Link href="/pages/forgot">Forgot username or password?</Link>
+              <small>
+                Don&apos;t have an account?
+                <Link
+                  href="/pages/signup"
+                  style={{ color: "#0018FF", paddingLeft: "5px" }}
+                >
+                  Sign up
+                </Link>
+              </small>
+            </div>
           </form>
         </div>
         <div className="Loginimage">
